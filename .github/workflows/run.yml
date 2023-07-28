@@ -1,0 +1,8 @@
+mame: actions-GCD-test
+on: [push]
+jobs:
+ check-bats-version:
+  runs-on: ubuntu-latest
+  steps:
+   - run: echo "GCD test"
+   - run: ./testcode.sh
