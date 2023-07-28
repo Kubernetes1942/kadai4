@@ -1,4 +1,4 @@
-mame: actions-GCD-test
+name: actions-GCD-test
 on: [push]
 jobs:
  check-bats-version:
