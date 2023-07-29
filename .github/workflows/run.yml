@@ -5,4 +5,4 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - run: echo "GCD test"
-   - run: /home/DJ1942/kadai4/testcode.sh
+   - run: ./testcode.sh
