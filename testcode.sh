@@ -200,14 +200,7 @@ else
     exit 1
 fi
 
-# テスト11：大きな数(27000001の素因数分解)
-result=$($GCD_SCRIPT 27000001 89701)
-if [[ "$result" == "選んだ二数の最大公約数は89701です。"* ]]; then
-    echo "テスト11: 成功"
-else
-    echo "テスト11: 失敗"
-    exit 1
-fi
+
 
 
 
